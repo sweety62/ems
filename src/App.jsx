@@ -2,13 +2,15 @@
 //import Login from './components/Auth/Login'
 
 import './App.css'
-import EmployeeDashboard from './components/Dashboard/EmployeeDashboard';
+import AdminDashboard from './components/Dashboard/AdminDashboard';
+//import EmployeeDashboard from './components/Dashboard/EmployeeDashboard';
 
 function App() {
   return (
     <>
     {/*<Login />*/}
-    <EmployeeDashboard/>
+    {/*<EmployeeDashboard/>*/}
+    <AdminDashboard />
     </>
   )
 }
